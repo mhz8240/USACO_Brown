@@ -19,7 +19,7 @@ public class Main {
         String line = "";
         int length = 0;
         for(String s : sA) {
-            if (length + s.length() <= 7) {
+            if (length + s.length() <= k) {
                 out.print(s + " ");
                 length += s.length();
             }
