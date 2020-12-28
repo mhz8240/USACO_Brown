@@ -9,8 +9,11 @@ public class Main {
         int n = stdin.nextInt();
         int m = stdin.nextInt();
         System.out.println("n = " + n);
+        
+
         int sum = n + m;
 
+        
         PrintWriter out = new PrintWriter(new FileWriter("test.out"));
         out.print(sum);
 
