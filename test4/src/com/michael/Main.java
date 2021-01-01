@@ -10,7 +10,7 @@ public class Main{
 	    // resources
         BufferedReader br = new BufferedReader(new FileReader("test.in"));
         PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("test.out")));
-
+        pw.println("Hi");
         //line 1
         StringTokenizer st1 = new StringTokenizer(br.readLine());
         int k = Integer.parseInt(st1.nextToken());
